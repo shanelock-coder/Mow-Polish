@@ -1,0 +1,21 @@
+PASS fresh dashboard, true zero progress and topic groups
+PASS setup limits, empty saved deck and deck browsing
+PASS 10-card flashcard round, unique cards and grading
+PASS keyboard flashcards and safe early exit
+PASS SRS due ordering, short round and no early stage inflation
+PASS 10-question multiple-choice quiz and missed-card recap
+PASS typed Polish, empty input, letter toolbar and reveal
+PASS 10-question English recognition with natural short answers
+PASS strict Polish spelling rejects missing diacritics
+PASS phrase search, pagination and live saved counts
+PASS settings, feminine forms, name and simulated reload
+PASS custom phrase create, escaping, study, edit and delete
+PASS backup Blob, cancel restore, restore and invalid rejection
+PASS destructive reset guard preserves personal phrases
+PASS unavailable native storage remains usable and warns
+PASS corrupt save is preserved until explicit recovery
+PASS pronunciation guide, missing voice and simulated speech parameters
+PASS progress dashboard from stored history
+PASS responsive pages and study at seven viewport widths
+PASS no uncaught JavaScript errors
+20/20 browser acceptance checks passed

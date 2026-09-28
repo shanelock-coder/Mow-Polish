@@ -1,0 +1,262 @@
+TAP version 13
+# Subtest: authored learning content exists
+ok 1 - authored learning content exists
+  ---
+  duration_ms: 0.735305
+  type: 'test'
+  ...
+# Subtest: 320 distinct cards across 16 decks
+ok 2 - 320 distinct cards across 16 decks
+  ---
+  duration_ms: 0.237651
+  type: 'test'
+  ...
+# Subtest: 20 complete cards per topic
+ok 3 - 20 complete cards per topic
+  ---
+  duration_ms: 0.825424
+  type: 'test'
+  ...
+# Subtest: no identical English/Polish pairs
+ok 4 - no identical English/Polish pairs
+  ---
+  duration_ms: 0.299393
+  type: 'test'
+  ...
+# Subtest: masculine/feminine fields are complete and different
+ok 5 - masculine/feminine fields are complete and different
+  ---
+  duration_ms: 0.321403
+  type: 'test'
+  ...
+# Subtest: negated car phrase uses genitive
+ok 6 - negated car phrase uses genitive
+  ---
+  duration_ms: 0.126063
+  type: 'test'
+  ...
+# Subtest: all cards belong to declared decks
+ok 7 - all cards belong to declared decks
+  ---
+  duration_ms: 0.17459
+  type: 'test'
+  ...
+# Subtest: study engine exists
+ok 8 - study engine exists
+  ---
+  duration_ms: 1.945005
+  type: 'test'
+  ...
+# Subtest: normalization ignores punctuation, case and spacing
+ok 9 - normalization ignores punctuation, case and spacing
+  ---
+  duration_ms: 0.555613
+  type: 'test'
+  ...
+# Subtest: lenient normalization handles ł as well as combining marks
+ok 10 - lenient normalization handles ł as well as combining marks
+  ---
+  duration_ms: 0.23281
+  type: 'test'
+  ...
+# Subtest: strict recall keeps Polish letters meaningful
+ok 11 - strict recall keeps Polish letters meaningful
+  ---
+  duration_ms: 0.262423
+  type: 'test'
+  ...
+# Subtest: lenient recall accepts missing diacritics but reports them
+ok 12 - lenient recall accepts missing diacritics but reports them
+  ---
+  duration_ms: 0.903966
+  type: 'test'
+  ...
+# Subtest: accepted alternatives work
+ok 13 - accepted alternatives work
+  ---
+  duration_ms: 0.150007
+  type: 'test'
+  ...
+# Subtest: first successful review reaches stage 1, due tomorrow
+ok 14 - first successful review reaches stage 1, due tomorrow
+  ---
+  duration_ms: 0.268886
+  type: 'test'
+  ...
+# Subtest: due review advances one stage
+ok 15 - due review advances one stage
+  ---
+  duration_ms: 0.094177
+  type: 'test'
+  ...
+# Subtest: early good practice does not advance or defer schedule
+ok 16 - early good practice does not advance or defer schedule
+  ---
+  duration_ms: 0.219958
+  type: 'test'
+  ...
+# Subtest: easy does not skip mastery stages
+ok 17 - easy does not skip mastery stages
+  ---
+  duration_ms: 0.309153
+  type: 'test'
+  ...
+# Subtest: again brings a mastered card back sooner
+ok 18 - again brings a mastered card back sooner
+  ---
+  duration_ms: 0.138777
+  type: 'test'
+  ...
+# Subtest: hard retains a learned stage
+ok 19 - hard retains a learned stage
+  ---
+  duration_ms: 0.069921
+  type: 'test'
+  ...
+# Subtest: stages never exceed five
+ok 20 - stages never exceed five
+  ---
+  duration_ms: 0.054554
+  type: 'test'
+  ...
+# Subtest: unknown grade is rejected
+ok 21 - unknown grade is rejected
+  ---
+  duration_ms: 0.163394
+  type: 'test'
+  ...
+# Subtest: SRS queue puts due reviews before new cards, skips early cards
+ok 22 - SRS queue puts due reviews before new cards, skips early cards
+  ---
+  duration_ms: 0.179162
+  type: 'test'
+  ...
+# Subtest: queue limit works
+ok 23 - queue limit works
+  ---
+  duration_ms: 0.055459
+  type: 'test'
+  ...
+# Subtest: empty queue is safe
+ok 24 - empty queue is safe
+  ---
+  duration_ms: 0.046382
+  type: 'test'
+  ...
+# Subtest: gender selection and name substitution are deterministic
+ok 25 - gender selection and name substitution are deterministic
+  ---
+  duration_ms: 0.186781
+  type: 'test'
+  ...
+# Subtest: quiz choices are unique by displayed text and include the answer exactly once
+ok 26 - quiz choices are unique by displayed text and include the answer exactly once
+  ---
+  duration_ms: 0.486031
+  type: 'test'
+  ...
+# Subtest: local date key is padded and local, not UTC sliced
+ok 27 - local date key is padded and local, not UTC sliced
+  ---
+  duration_ms: 0.276549
+  type: 'test'
+  ...
+# Subtest: streak includes yesterday when today is not yet active
+ok 28 - streak includes yesterday when today is not yet active
+  ---
+  duration_ms: 0.117278
+  type: 'test'
+  ...
+# Subtest: streak stops at a missing day
+ok 29 - streak stops at a missing day
+  ---
+  duration_ms: 0.051604
+  type: 'test'
+  ...
+# Subtest: empty state has genuine zero progress
+ok 30 - empty state has genuine zero progress
+  ---
+  duration_ms: 0.067564
+  type: 'test'
+  ...
+# Subtest: valid backup round trip preserves known progress and settings
+ok 31 - valid backup round trip preserves known progress and settings
+  ---
+  duration_ms: 0.603365
+  type: 'test'
+  ...
+# Subtest: wrong backup app is rejected
+ok 32 - wrong backup app is rejected
+  ---
+  duration_ms: 0.083513
+  type: 'test'
+  ...
+# Subtest: out-of-range progress rejected
+ok 33 - out-of-range progress rejected
+  ---
+  duration_ms: 0.110124
+  type: 'test'
+  ...
+# Subtest: invalid setting type rejected
+ok 34 - invalid setting type rejected
+  ---
+  duration_ms: 0.071932
+  type: 'test'
+  ...
+# Subtest: unknown progress ids rejected rather than corrupting counts
+ok 35 - unknown progress ids rejected rather than corrupting counts
+  ---
+  duration_ms: 0.139772
+  type: 'test'
+  ...
+# Subtest: prototype property rejected
+ok 36 - prototype property rejected
+  ---
+  duration_ms: 0.137741
+  type: 'test'
+  ...
+# Subtest: custom cards round trip as inert text
+ok 37 - custom cards round trip as inert text
+  ---
+  duration_ms: 0.258729
+  type: 'test'
+  ...
+# Subtest: duplicate custom ids rejected
+ok 38 - duplicate custom ids rejected
+  ---
+  duration_ms: 0.156364
+  type: 'test'
+  ...
+# Subtest: typed recognition accepts English without teaching labels
+ok 39 - typed recognition accepts English without teaching labels
+  ---
+  duration_ms: 0.345851
+  type: 'test'
+  ...
+# Subtest: typed recognition accepts individual meanings and optional noun articles
+ok 40 - typed recognition accepts individual meanings and optional noun articles
+  ---
+  duration_ms: 0.178715
+  type: 'test'
+  ...
+# Subtest: common English contractions are accepted naturally
+ok 41 - common English contractions are accepted naturally
+  ---
+  duration_ms: 0.107756
+  type: 'test'
+  ...
+# Subtest: selected Polish speaker form remains the typed target
+ok 42 - selected Polish speaker form remains the typed target
+  ---
+  duration_ms: 0.063957
+  type: 'test'
+  ...
+1..42
+# tests 42
+# suites 0
+# pass 42
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 74.219905

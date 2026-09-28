@@ -1,0 +1,321 @@
+TAP version 13
+# Subtest: authored learning content exists
+ok 1 - authored learning content exists
+  ---
+  duration_ms: 0.937131
+  type: 'test'
+  ...
+# Subtest: 320 distinct cards across 16 decks
+ok 2 - 320 distinct cards across 16 decks
+  ---
+  duration_ms: 0.34701
+  type: 'test'
+  ...
+# Subtest: 20 complete cards per topic
+ok 3 - 20 complete cards per topic
+  ---
+  duration_ms: 1.183437
+  type: 'test'
+  ...
+# Subtest: no identical English/Polish pairs
+ok 4 - no identical English/Polish pairs
+  ---
+  duration_ms: 0.458824
+  type: 'test'
+  ...
+# Subtest: masculine/feminine fields are complete and different
+ok 5 - masculine/feminine fields are complete and different
+  ---
+  duration_ms: 0.339999
+  type: 'test'
+  ...
+# Subtest: negated car phrase uses genitive
+ok 6 - negated car phrase uses genitive
+  ---
+  duration_ms: 0.18929
+  type: 'test'
+  ...
+# Subtest: all cards belong to declared decks
+ok 7 - all cards belong to declared decks
+  ---
+  duration_ms: 0.341836
+  type: 'test'
+  ...
+# Subtest: study engine exists
+ok 8 - study engine exists
+  ---
+  duration_ms: 2.339947
+  type: 'test'
+  ...
+# Subtest: normalization ignores punctuation, case and spacing
+ok 9 - normalization ignores punctuation, case and spacing
+  ---
+  duration_ms: 0.604595
+  type: 'test'
+  ...
+# Subtest: lenient normalization handles ł as well as combining marks
+ok 10 - lenient normalization handles ł as well as combining marks
+  ---
+  duration_ms: 0.253398
+  type: 'test'
+  ...
+# Subtest: strict recall keeps Polish letters meaningful
+ok 11 - strict recall keeps Polish letters meaningful
+  ---
+  duration_ms: 0.419221
+  type: 'test'
+  ...
+# Subtest: lenient recall accepts missing diacritics but reports them
+ok 12 - lenient recall accepts missing diacritics but reports them
+  ---
+  duration_ms: 1.41847
+  type: 'test'
+  ...
+# Subtest: accepted alternatives work
+ok 13 - accepted alternatives work
+  ---
+  duration_ms: 0.235251
+  type: 'test'
+  ...
+# Subtest: first successful review reaches stage 1, due tomorrow
+ok 14 - first successful review reaches stage 1, due tomorrow
+  ---
+  duration_ms: 0.399008
+  type: 'test'
+  ...
+# Subtest: due review advances one stage
+ok 15 - due review advances one stage
+  ---
+  duration_ms: 0.180252
+  type: 'test'
+  ...
+# Subtest: early good practice does not advance or defer schedule
+ok 16 - early good practice does not advance or defer schedule
+  ---
+  duration_ms: 0.414663
+  type: 'test'
+  ...
+# Subtest: easy does not skip mastery stages
+ok 17 - easy does not skip mastery stages
+  ---
+  duration_ms: 0.545324
+  type: 'test'
+  ...
+# Subtest: again brings a mastered card back sooner
+ok 18 - again brings a mastered card back sooner
+  ---
+  duration_ms: 0.242032
+  type: 'test'
+  ...
+# Subtest: hard retains a learned stage
+ok 19 - hard retains a learned stage
+  ---
+  duration_ms: 0.136451
+  type: 'test'
+  ...
+# Subtest: stages never exceed five
+ok 20 - stages never exceed five
+  ---
+  duration_ms: 0.150656
+  type: 'test'
+  ...
+# Subtest: unknown grade is rejected
+ok 21 - unknown grade is rejected
+  ---
+  duration_ms: 0.28253
+  type: 'test'
+  ...
+# Subtest: SRS queue puts due reviews before new cards, skips early cards
+ok 22 - SRS queue puts due reviews before new cards, skips early cards
+  ---
+  duration_ms: 0.262013
+  type: 'test'
+  ...
+# Subtest: queue limit works
+ok 23 - queue limit works
+  ---
+  duration_ms: 0.099209
+  type: 'test'
+  ...
+# Subtest: empty queue is safe
+ok 24 - empty queue is safe
+  ---
+  duration_ms: 0.076975
+  type: 'test'
+  ...
+# Subtest: gender selection and name substitution are deterministic
+ok 25 - gender selection and name substitution are deterministic
+  ---
+  duration_ms: 0.241795
+  type: 'test'
+  ...
+# Subtest: quiz choices are unique by displayed text and include the answer exactly once
+ok 26 - quiz choices are unique by displayed text and include the answer exactly once
+  ---
+  duration_ms: 0.41155
+  type: 'test'
+  ...
+# Subtest: local date key is padded and local, not UTC sliced
+ok 27 - local date key is padded and local, not UTC sliced
+  ---
+  duration_ms: 0.358907
+  type: 'test'
+  ...
+# Subtest: streak includes yesterday when today is not yet active
+ok 28 - streak includes yesterday when today is not yet active
+  ---
+  duration_ms: 0.229895
+  type: 'test'
+  ...
+# Subtest: streak stops at a missing day
+ok 29 - streak stops at a missing day
+  ---
+  duration_ms: 0.112003
+  type: 'test'
+  ...
+# Subtest: empty state has genuine zero progress
+ok 30 - empty state has genuine zero progress
+  ---
+  duration_ms: 0.125234
+  type: 'test'
+  ...
+# Subtest: valid backup round trip preserves known progress and settings
+ok 31 - valid backup round trip preserves known progress and settings
+  ---
+  duration_ms: 0.773677
+  type: 'test'
+  ...
+# Subtest: wrong backup app is rejected
+ok 32 - wrong backup app is rejected
+  ---
+  duration_ms: 0.12469
+  type: 'test'
+  ...
+# Subtest: out-of-range progress rejected
+ok 33 - out-of-range progress rejected
+  ---
+  duration_ms: 0.187268
+  type: 'test'
+  ...
+# Subtest: invalid setting type rejected
+ok 34 - invalid setting type rejected
+  ---
+  duration_ms: 0.125312
+  type: 'test'
+  ...
+# Subtest: unknown progress ids rejected rather than corrupting counts
+ok 35 - unknown progress ids rejected rather than corrupting counts
+  ---
+  duration_ms: 0.25914
+  type: 'test'
+  ...
+# Subtest: prototype property rejected
+ok 36 - prototype property rejected
+  ---
+  duration_ms: 0.162593
+  type: 'test'
+  ...
+# Subtest: custom cards round trip as inert text
+ok 37 - custom cards round trip as inert text
+  ---
+  duration_ms: 0.214278
+  type: 'test'
+  ...
+# Subtest: duplicate custom ids rejected
+ok 38 - duplicate custom ids rejected
+  ---
+  duration_ms: 0.195394
+  type: 'test'
+  ...
+# Subtest: typed recognition accepts English without teaching labels
+not ok 39 - typed recognition accepts English without teaching labels
+  ---
+  duration_ms: 0.212597
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:37:1'
+  failureType: 'testCodeFailure'
+  error: 'E.acceptedAnswers is not a function'
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:37:83)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: typed recognition accepts individual meanings and optional noun articles
+not ok 40 - typed recognition accepts individual meanings and optional noun articles
+  ---
+  duration_ms: 0.138869
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:38:1'
+  failureType: 'testCodeFailure'
+  error: 'E.acceptedAnswers is not a function'
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:38:96)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: common English contractions are accepted naturally
+not ok 41 - common English contractions are accepted naturally
+  ---
+  duration_ms: 1.001685
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:39:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    false !== true
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:39:71)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: selected Polish speaker form remains the typed target
+not ok 42 - selected Polish speaker form remains the typed target
+  ---
+  duration_ms: 0.106142
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:40:1'
+  failureType: 'testCodeFailure'
+  error: 'E.acceptedAnswers is not a function'
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:40:86)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+1..42
+# tests 42
+# suites 0
+# pass 38
+# fail 4
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 91.222443

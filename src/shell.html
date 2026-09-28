@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#101114">
+<meta name="description" content="Mów — your personal Polish conversation trainer. Flashcards, spaced repetition, quizzes and 320 everyday phrases.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Mów">
+<title>Mów — Polish, one conversation at a time</title>
+<!--PWA-->
+<style>/*STYLES*/</style>
+</head>
+<body>
+<a class="skip-link" href="#page">Skip to content</a>
+<div class="shell">
+ <aside class="sidebar" aria-label="Main navigation">
+  <button class="brand" data-action="nav" data-view="learn" aria-label="Mów home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Mów<span class="gold">.</span></span></button>
+  <div class="brand-caption">A LITTLE EVERY DAY</div>
+  <div class="language-pill"><span class="polish-flag" aria-hidden="true"></span><span>Polish <span class="muted">/ Polski</span></span><span class="tiny-label">EN</span></div>
+  <div class="nav-caption">YOUR WORKSPACE</div>
+  <nav id="desktop-nav"></nav>
+  <div class="sidebar-bottom"><div id="side-goal"></div><button class="side-help" data-action="about"><span class="mini-icon">?</span> Make yourself at home</button><div class="signature">MÓW STUDIO <span>v1.1</span></div></div>
+ </aside>
+ <main class="main">
+  <header class="topbar"><div id="breadcrumb"></div><div id="top-stats" class="top-stats"></div></header>
+  <div id="storage-warning" class="storage-warning" role="status" hidden></div>
+  <div id="page" class="page" tabindex="-1"><section id="iphone-fallback" class="iphone-fallback" aria-live="polite">
+   <div class="iphone-fallback-card">
+    <span class="polish-flag" aria-hidden="true"></span>
+    <div class="eyebrow">IPHONE / IPAD</div>
+    <h1>Open Mów in Safari<span class="gold">.</span></h1>
+    <p>If you can see this screen instead of your lessons, Apple is previewing the downloaded HTML in <strong>Files / Quick Look</strong>. That preview does not run the app.</p>
+    <div class="iphone-steps"><strong>For the full app on iPhone:</strong><span>1. Put the included <b>Mow_Polish</b> web folder on any HTTPS web host.</span><span>2. Open its <b>index.html</b> URL in Safari.</span><span>3. Tap Share → <b>Add to Home Screen</b> for an app-style icon and offline use.</span></div>
+    <p class="iphone-fallback-note">Your PC copy still works as a standalone file. This message disappears automatically in a browser that can run Mów.</p>
+   </div>
+  </section></div>
+  <footer class="page-footer"><span><span class="polish-flag flag-small" aria-hidden="true"></span> Made for real conversations.</span><button data-action="about">Your progress. Your device.</button></footer>
+ </main>
+</div>
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation"></nav>
+<dialog id="modal" class="modal" aria-labelledby="modal-title"><div id="modal-inner"></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<input id="import-file" type="file" accept=".json,application/json" hidden aria-label="Import Mów backup">
+<noscript><div class="noscript">Mów needs JavaScript to run the lessons. On iPhone, Apple Files / Quick Look is only a document preview; use the hosted web app in Safari.</div></noscript>
+<script>/*DATA*/</script>
+<script>/*ENGINE*/</script>
+<script>/*APP*/</script>
+<!--WORKER-->
+</body>
+</html>

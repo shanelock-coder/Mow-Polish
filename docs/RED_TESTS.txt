@@ -1,0 +1,706 @@
+TAP version 13
+# Subtest: authored learning content exists
+not ok 1 - authored learning content exists
+  ---
+  duration_ms: 1.135244
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/data.test.cjs:3:1'
+  failureType: 'testCodeFailure'
+  error: 'Author the deck content'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/data.test.cjs:3:52)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: 320 distinct cards across 16 decks
+not ok 2 - 320 distinct cards across 16 decks
+  ---
+  duration_ms: 0.207607
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/data.test.cjs:4:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'cards')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/data.test.cjs:4:63)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+# Subtest: 20 complete cards per topic
+not ok 3 - 20 complete cards per topic
+  ---
+  duration_ms: 0.137735
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/data.test.cjs:5:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'decks')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/data.test.cjs:5:58)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: no identical English/Polish pairs
+not ok 4 - no identical English/Polish pairs
+  ---
+  duration_ms: 0.087016
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/data.test.cjs:6:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'cards')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/data.test.cjs:6:70)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: masculine/feminine fields are complete and different
+not ok 5 - masculine/feminine fields are complete and different
+  ---
+  duration_ms: 0.098451
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/data.test.cjs:7:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'cards')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/data.test.cjs:7:83)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: negated car phrase uses genitive
+not ok 6 - negated car phrase uses genitive
+  ---
+  duration_ms: 0.070158
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/data.test.cjs:8:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'cards')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/data.test.cjs:8:58)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: all cards belong to declared decks
+not ok 7 - all cards belong to declared decks
+  ---
+  duration_ms: 0.233291
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/data.test.cjs:9:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'decks')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/data.test.cjs:9:68)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: study engine exists
+not ok 8 - study engine exists
+  ---
+  duration_ms: 2.323713
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:6:1'
+  failureType: 'testCodeFailure'
+  error: 'Implement the study engine'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:6:42)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: normalization ignores punctuation, case and spacing
+not ok 9 - normalization ignores punctuation, case and spacing
+  ---
+  duration_ms: 0.181797
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:7:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'normalize')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:7:80)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+# Subtest: lenient normalization handles ł as well as combining marks
+not ok 10 - lenient normalization handles ł as well as combining marks
+  ---
+  duration_ms: 0.079194
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:8:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'normalize')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:8:87)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: strict recall keeps Polish letters meaningful
+not ok 11 - strict recall keeps Polish letters meaningful
+  ---
+  duration_ms: 0.075922
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:9:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'matchAnswer')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:9:74)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: lenient recall accepts missing diacritics but reports them
+not ok 12 - lenient recall accepts missing diacritics but reports them
+  ---
+  duration_ms: 0.079928
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:10:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'matchAnswer')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:10:91)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: accepted alternatives work
+not ok 13 - accepted alternatives work
+  ---
+  duration_ms: 0.065068
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:11:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'matchAnswer')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:11:55)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: first successful review reaches stage 1, due tomorrow
+not ok 14 - first successful review reaches stage 1, due tomorrow
+  ---
+  duration_ms: 0.119528
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:12:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'review')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:12:75)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: due review advances one stage
+not ok 15 - due review advances one stage
+  ---
+  duration_ms: 0.166274
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:13:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'review')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:13:51)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: early good practice does not advance or defer schedule
+not ok 16 - early good practice does not advance or defer schedule
+  ---
+  duration_ms: 0.266145
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:14:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'review')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:14:76)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: easy does not skip mastery stages
+not ok 17 - easy does not skip mastery stages
+  ---
+  duration_ms: 0.598013
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:15:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'review')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:15:55)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: again brings a mastered card back sooner
+not ok 18 - again brings a mastered card back sooner
+  ---
+  duration_ms: 0.178865
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:16:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'review')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:16:62)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: hard retains a learned stage
+not ok 19 - hard retains a learned stage
+  ---
+  duration_ms: 0.083053
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:17:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'review')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:17:50)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: stages never exceed five
+not ok 20 - stages never exceed five
+  ---
+  duration_ms: 0.061256
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:18:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'review')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:18:53)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: unknown grade is rejected
+ok 21 - unknown grade is rejected
+  ---
+  duration_ms: 0.260351
+  type: 'test'
+  ...
+# Subtest: SRS queue puts due reviews before new cards, skips early cards
+not ok 22 - SRS queue puts due reviews before new cards, skips early cards
+  ---
+  duration_ms: 0.145991
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:20:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'queue')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:20:225)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: queue limit works
+not ok 23 - queue limit works
+  ---
+  duration_ms: 0.070957
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:21:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'queue')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:21:46)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: empty queue is safe
+not ok 24 - empty queue is safe
+  ---
+  duration_ms: 0.053848
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:22:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'queue')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:22:51)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: gender selection and name substitution are deterministic
+not ok 25 - gender selection and name substitution are deterministic
+  ---
+  duration_ms: 0.24548
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:23:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'polish')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:23:85)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: quiz choices are unique by displayed text and include the answer exactly once
+not ok 26 - quiz choices are unique by displayed text and include the answer exactly once
+  ---
+  duration_ms: 0.119366
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:24:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'choices')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:24:260)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: local date key is padded and local, not UTC sliced
+not ok 27 - local date key is padded and local, not UTC sliced
+  ---
+  duration_ms: 0.059172
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:25:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'dayKey')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:25:79)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: streak includes yesterday when today is not yet active
+not ok 28 - streak includes yesterday when today is not yet active
+  ---
+  duration_ms: 0.136891
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:26:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'streak')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:26:83)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: streak stops at a missing day
+not ok 29 - streak stops at a missing day
+  ---
+  duration_ms: 0.062895
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:27:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'streak')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:27:58)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: empty state has genuine zero progress
+not ok 30 - empty state has genuine zero progress
+  ---
+  duration_ms: 0.060266
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:28:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'freshState')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:28:59)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: valid backup round trip preserves known progress and settings
+not ok 31 - valid backup round trip preserves known progress and settings
+  ---
+  duration_ms: 0.098435
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:29:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'freshState')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:29:83)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: wrong backup app is rejected
+ok 32 - wrong backup app is rejected
+  ---
+  duration_ms: 0.08145
+  type: 'test'
+  ...
+# Subtest: out-of-range progress rejected
+not ok 33 - out-of-range progress rejected
+  ---
+  duration_ms: 0.061464
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:31:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'backup')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:31:52)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: invalid setting type rejected
+not ok 34 - invalid setting type rejected
+  ---
+  duration_ms: 0.169877
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:32:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'backup')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:32:51)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: unknown progress ids rejected rather than corrupting counts
+not ok 35 - unknown progress ids rejected rather than corrupting counts
+  ---
+  duration_ms: 0.073591
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:33:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'backup')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:33:81)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: prototype property rejected
+not ok 36 - prototype property rejected
+  ---
+  duration_ms: 0.056897
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:34:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'backup')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:34:49)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: custom cards round trip as inert text
+not ok 37 - custom cards round trip as inert text
+  ---
+  duration_ms: 0.065881
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:35:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'freshState')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:35:59)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: duplicate custom ids rejected
+not ok 38 - duplicate custom ids rejected
+  ---
+  duration_ms: 0.060854
+  type: 'test'
+  location: '/mnt/data/mow-polish/tests/engine.test.cjs:36:1'
+  failureType: 'testCodeFailure'
+  error: "Cannot read properties of undefined (reading 'freshState')"
+  code: 'ERR_TEST_FAILURE'
+  name: 'TypeError'
+  stack: |-
+    TestContext.<anonymous> (/mnt/data/mow-polish/tests/engine.test.cjs:36:51)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+1..38
+# tests 38
+# suites 0
+# pass 2
+# fail 36
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 79.230184

@@ -1,0 +1,86 @@
+{
+  "environment": "System Chromium, set_content; explicit in-memory storage for persistence tests. Not Safari/native-origin/PWA validation.",
+  "results": [
+    {
+      "test": "fresh dashboard, true zero progress and topic groups",
+      "passed": true
+    },
+    {
+      "test": "setup limits, empty saved deck and deck browsing",
+      "passed": true
+    },
+    {
+      "test": "10-card flashcard round, unique cards and grading",
+      "passed": true
+    },
+    {
+      "test": "keyboard flashcards and safe early exit",
+      "passed": true
+    },
+    {
+      "test": "SRS due ordering, short round and no early stage inflation",
+      "passed": true
+    },
+    {
+      "test": "10-question multiple-choice quiz and missed-card recap",
+      "passed": true
+    },
+    {
+      "test": "typed Polish, empty input, letter toolbar and reveal",
+      "passed": true
+    },
+    {
+      "test": "10-question English recognition with natural short answers",
+      "passed": true
+    },
+    {
+      "test": "strict Polish spelling rejects missing diacritics",
+      "passed": true
+    },
+    {
+      "test": "phrase search, pagination and live saved counts",
+      "passed": true
+    },
+    {
+      "test": "settings, feminine forms, name and simulated reload",
+      "passed": true
+    },
+    {
+      "test": "custom phrase create, escaping, study, edit and delete",
+      "passed": true
+    },
+    {
+      "test": "backup Blob, cancel restore, restore and invalid rejection",
+      "passed": true
+    },
+    {
+      "test": "destructive reset guard preserves personal phrases",
+      "passed": true
+    },
+    {
+      "test": "unavailable native storage remains usable and warns",
+      "passed": true
+    },
+    {
+      "test": "corrupt save is preserved until explicit recovery",
+      "passed": true
+    },
+    {
+      "test": "pronunciation guide, missing voice and simulated speech parameters",
+      "passed": true
+    },
+    {
+      "test": "progress dashboard from stored history",
+      "passed": true
+    },
+    {
+      "test": "responsive pages and study at seven viewport widths",
+      "passed": true
+    },
+    {
+      "test": "no uncaught JavaScript errors",
+      "passed": true
+    }
+  ],
+  "javascript_errors": []
+}
